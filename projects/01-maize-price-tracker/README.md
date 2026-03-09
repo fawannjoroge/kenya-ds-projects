@@ -27,3 +27,9 @@ patterns that can help farmers and buyers make better decisions.
 
 ## Dataset
 Source: Kenya National Bureau of Statistics (KNBS) / WFP Kenya Food Prices
+
+## Data Limitations
+- Coast region data is only available from 2015 onwards
+- Nairobi data is only available for 2021–2022
+- Regional comparisons should be interpreted with this in mind
+- Data source: WFP Kenya — collection coverage varies by region and year
