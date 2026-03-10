@@ -1,4 +1,4 @@
-# 🌽 Maize Price Tracker — Kenya
+#  Maize Price Tracker — Kenya
 
 ## The Problem
 Maize is Kenya's staple food. Prices fluctuate wildly across regions and seasons,
@@ -33,3 +33,13 @@ Source: Kenya National Bureau of Statistics (KNBS) / WFP Kenya Food Prices
 - Nairobi data is only available for 2021–2022
 - Regional comparisons should be interpreted with this in mind
 - Data source: WFP Kenya — collection coverage varies by region and year
+## Running the Interactive App
+To run the MVP from your terminal:
+```bash
+cd projects/01-maize-price-tracker
+python app.py
+```
+The app lets you:
+- View national price trends (2006–2025)
+- Compare average prices across regions
+- Get the best and worst months to sell by region
