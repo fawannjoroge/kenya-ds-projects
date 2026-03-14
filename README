@@ -1,0 +1,49 @@
+# ☀️ Solar Potential Map for Off-Grid Kenya
+
+## The Problem
+Over 30% of Kenyans have no access to the national grid. Solar energy
+is the most viable solution for off-grid communities — but where should
+NGOs, investors and installers prioritize?
+
+## What This Project Does
+- Fetches real solar irradiance data from Open-Meteo API for all 47 counties
+- Builds a solar suitability scoring model based on radiation and consistency
+- Ranks all 47 counties into 3 priority tiers
+- Visualizes results on an actual Kenya map using GeoPandas
+- Provides an interactive MVP for NGO deployment planning
+
+## Tools Used
+- Python
+- Pandas — data processing
+- Requests — API calls
+- GeoPandas — geospatial mapping
+- Matplotlib & Seaborn — visualizations
+- Open-Meteo API — free solar radiation data
+
+## How To Run
+
+### Fetch fresh data
+```bash
+python fetch_solar_data.py
+```
+
+### Run the interactive app
+```bash
+python app.py
+```
+
+### Open the analysis notebook
+```bash
+jupyter notebook notebooks/analysis.ipynb
+```
+
+## Key Findings
+- Top county: Uasin Gishu (83.3/100)
+- Lowest county: Kwale (7.4/100)
+- Tier 1 counties: Uasin Gishu, Turkana, Baringo, Elgeyo Marakwet, Nakuru, Kisumu
+- Best region: Rift Valley
+- Worst region: Coast (high humidity reduces irradiance)
+
+## Data Source
+Open-Meteo Historical Weather API — free, no API key required
+Kenya County Boundaries — GADM v4.1
